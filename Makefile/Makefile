@@ -13,7 +13,7 @@ BIN_DIR = binary
 
 # Compiler & linker flags
 CFLAGS = -Wall -Wextra -g
-LFLAGS = # Note - add the linker file according to the code convenience
+LFLAGS = # Note - add the linker flag according to the code convenience
 
 # Describing directory path
 SRC := $(wildcard $(SRC_DIR)/*.c)
